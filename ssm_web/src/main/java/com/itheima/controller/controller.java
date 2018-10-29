@@ -19,7 +19,7 @@ public class controller {
 
     @RequestMapping("/findAll")
     public String findAll(Model model){
-        System.out.println("表现层：查询所有账户...");
+        System.out.println("表现层：查询所有账dfg 户...");
         // 调用service的方法
         List<Account> list = accountService.findAll();
         model.addAttribute("list",list);
